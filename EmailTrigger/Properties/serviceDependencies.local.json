@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights.sdk"
+    },
+    "storage1": {
+      "type": "storage.emulator",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "storage2": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/internshipstorage2002000",
+      "type": "storage.azure",
+      "connectionId": "DefaultEndpointsProtocol=https;AccountName=internshipstorage2002000;AccountKey=T1iuBTdtjnOk1CnWTHQS578P+AJmI8M5Ya2jg9X/V+Nme3XSq/zZBfBh3tFJsLUC+o+mHKRUiuO4+AStaeKsbg==;EndpointSuffix=core.windows.net",
+      "dynamicId": null
+    }
+  }
+}
